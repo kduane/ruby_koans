@@ -145,11 +145,7 @@ EOS
 
   def test_you_can_get_a_single_character_from_a_string
     string = "Bacon, lettuce and tomato"
-<<<<<<< HEAD
     assert_equal "a", string[1]
-=======
-    assert_equal 'a', string[1]
->>>>>>> 150d1e23cd4b67130df195c5783a4faeba5b46c3
 
     # Surprised?
   end
